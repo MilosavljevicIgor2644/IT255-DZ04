@@ -1,10 +1,6 @@
-@color_1: darkgray;
-@color_2: white;
-@color_3: black;
-@color_4: darkgrey;
-@font_family_1: serif;
-@background_color_1: #373A3C;
-@background_color_2: grey;
+
+
+$zelena: #373A3C;
 
 html {
 	overflow-x: hidden;
@@ -17,13 +13,13 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: @background_color_1;
+	background-color: @zelena;
 }
 li {
 	float: left;
 	a {
 		display: block;
-		color: @color_1;
+		color: darkgray;
 		text-align: center;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -31,9 +27,9 @@ li {
 		vertical-align: middle;
 		text-decoration: none;
 		font-weight: 300;
-		font-family: @font_family_1;
+		font-family: serif;
 		&:hover {
-			color: @color_2;
+			color: white;
 		}
 	}
 }
@@ -43,7 +39,7 @@ li {
 #headbar {
 	font-size: 200%;
 	height: 50%;
-	background-color: @background_color_2;
+	background-color: black;
 	background-image: url(../images/pozadina2.jpg);
 	background-size: cover;
 	img {
@@ -57,7 +53,7 @@ li {
 	}
 }
 #name {
-	color: @color_3;
+	color: black;
 	font-weight: bold;
 	font-size: 300%;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -71,7 +67,7 @@ li {
 }
 #headline {
 	font-size: 150%;
-	color: @color_2;
+	color: white;
 }
 #roba {
 	font-size: 300%;
@@ -81,9 +77,9 @@ li {
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 #bottom {
-	background-color: @background_color_1;
+	background-color: $zelena;
 	height: 50px;
-	color: @color_4;
+	color: gray;
 	text-align: center;
 	line-height: 50px;
 }
